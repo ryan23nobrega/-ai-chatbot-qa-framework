@@ -1,0 +1,31 @@
+{
+  "name": "ai-chatbot-qa-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type": "module",
+    "test": "jest",
+    "test:functional": "jest tests/functional",
+    "test:quality": "jest tests/quality",
+    "test:performance": "jest tests/performance",
+    "test:security": "jest tests/security"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.1",
+    "jest": "^30.4.2",
+    "jest-html-reporters": "^3.1.7",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "dotenv": "^17.4.2"
+  }
+}
